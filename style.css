@@ -102,10 +102,11 @@ main {
 
 .stick .imgBox .img {
   position: relative;
-  left: -150px;
-  width: 600px;
-  height: 375px;
+  left: 45px;
+  width: 275px;
+  height: 410px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .stick .imgBox .intro-box {
@@ -262,23 +263,28 @@ footer a {
 }
 
 @media (max-width: 425px) {
+
   html,
   body {
     width: 100%;
     height: 100%;
   }
+
   .stick {
     position: relative;
     width: 100%;
     height: 100%;
     top: 0px;
   }
+
   .stick .imgBox .img {
     left: -120px;
   }
+
   .stick .imgBox .intro-box {
     left: 60px;
   }
+
   .stick .openBox {
     display: none;
   }
